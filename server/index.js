@@ -10,7 +10,7 @@ const taskRoute=require('./Routes/task')
 
 app.use(
     cors({
-        origin:"http://localhost:5173",
+        origin:"https://taskmanagerfrontend-three.vercel.app",
         credentials: true, 
     })
 )
